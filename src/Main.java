@@ -2,6 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // Part 1
         int intOperandA = 10;
         int intOperandB = 2;
         int intSum = 0;
@@ -47,6 +48,15 @@ public class Main
 
         doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The modulus of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo );
+
+        //Part 2
+        final int KIDS_IN_FAMILY = 3;
+        boolean isRaining = false;
+        double gasPricePerGallon = 3.5;
+        final int FAV_NUMBER = 15;
+        final double SHOE_SIZE = 10.0;
+        String birthMonth = " November ";
+        String fullName = " Joshua McKinley ";
 
     }
 }
